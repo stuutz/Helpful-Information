@@ -30,3 +30,6 @@ identifier "com.jamfsoftware.jamf" and anchor apple generic and certificate 1[fi
 or
 
 anchor apple generic and identifier "com.jamf.management.service" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443")
+
+<h1>Resource:</h1>
+https://docs.jamf.com/technical-articles/Preparing_Your_Organization_for_User_Data_Protections_on_macOS_10-14.html
